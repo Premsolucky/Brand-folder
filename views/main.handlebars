@@ -1,0 +1,470 @@
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="ResizingButtons">
+    <i class="fa fa-info" ></i>
+  </button>
+</div>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       <!-- Modal Header -->
+        <div class="modal-header">
+          <p>This is Where My Information is</p>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<!--Abriviation Section -->
+<div class="mast">
+<div class="row reviewSection">
+  <div class="col-md-10 ">
+     <h4 class="italic">ABBVIE</h4>
+      <p>DEPT GS02 BLDG APS </br>NORTH CHICAGO </br>USA</p>
+  </div>
+  <div class="col-md-2 table">
+     <p class="review">MP:0000396234</br> Service Review:</p>
+  </div>
+</div>
+</div>
+<!---Form Section -->
+<div class="mast fromsection">
+<div class="row reviewSection cardBorders">
+  
+  
+  <div class="col-md Forms">
+
+
+    <div class="headerwithicon">
+    <p class="header">HSE Section:  <i class="fa fa-info" id="xyz" ></i></p>
+    </div>
+
+
+     <form >
+       
+                                   <label >CM Integration:</label></br>
+                                  <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">High Touch</option>
+                                          <option value="Vet">Low</option>
+                                          <option value="Tech">Medium</option>
+                                       </select>
+                                      </span>
+                                   </div>
+ 
+                                  <label >Service Type:</label></br>
+                                  <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Partial</option>
+                                          <option value="Vet">Non-Partial</option>
+                                          <option value="Tech">Full</option>
+                                       </select>
+                                      </span>
+                                   </div>
+        
+                                   <label >Vendor Type:</label></br>
+                                   <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">CM</option>
+                                          <option value="Vet">PM</option>
+                                          <option value="Tech">AM</option>
+                                       </select>
+                                      </span>
+                                   </div>
+       
+                                  <label >Hub Oversight:</label></br>
+                                  <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">EEM-NA</option>
+                                          <option value="Vet">Yes</option>
+                                          <option value="Tech">No</option>
+                                       </select>
+                                      </span>
+                                   </div>
+                                  
+        
+                                 <label >Operation Leader:</label></br>
+                                 <div class="inputWithIcon inputIconBg">
+                                  <input type="text" placeholder="Your name">
+                                  <i class="fa fa-user icon"></i>
+                                  </div>
+                                 
+                                <label >JPT Leader:</label></br>
+                                <div class="inputWithIcon inputIconBg">
+                                  <input type="text" placeholder="Your name">
+                                  <i class="fa fa-user icon"></i>
+                                  </div>
+        
+                              <label >Comments:</label></br>
+                               <textarea class="comments"></textarea>
+     </form>
+      
+  </div>
+  <div class="col-md Forms">
+     <form >
+                              <label >Vendor Status:</label></br>
+                                    <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">In Termination</option>
+                                          <option value="Vet">PM</option>
+                                          <option value="Tech">AM</option>
+                                       </select>
+                                      </span>
+                                   </div>
+
+                                    <label >Supply Scope:</label></br>
+                                    <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Global</option>
+                                          <option value="Vet">Local</option>
+                                          <option value="Tech">Multiple</option>
+                                       </select>
+                                      </span>
+                                   </div>
+        
+                                   <label >Contract-Not-in-Place:</label><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></br>
+    
+                                 <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">Contract Expiration:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+     
+     
+                                      <label >Volume Commitment:</label></br>
+                                      <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Yes</option>
+                                          <option value="Vet">No</option>
+                                       </select>
+                                      </span>
+                                   </div>
+        
+                               <label >Comments:</label></br>
+                               <textarea class="comments"></textarea>
+     </form>
+  </div>
+  <div class="col-md Forms">
+     <form >
+                                      <label >Quality Risk:</label></br>
+                                        <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Yes</option>
+                                          <option value="Vet">No</option>
+                                       </select>
+                                      </span>
+                                   </div>
+
+                                        <label >QTA-Not-in-Place:</label>
+                                          <input type="checkbox"/></br>
+        
+                                        
+                                        <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">Initial QTA Signature Date:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+       
+                                      
+                                         <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">QTA Approval Date:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+        
+                                          
+                                        <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">QTA Review Date:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+        
+                                        
+                                        <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">Last GQA Audit:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+        
+                                        <label >Availaible Certification:</label></br>
+                                        <div class="inputWithIcons inputIconBgs">
+                                        <input type="text" placeholder="Your name">
+                                        <i class="fa fa-plus" ></i>
+                                        </div>
+        
+        
+                                        <label >Quality Leader:</label></br>
+                                        <div class="inputWithIcon inputIconBg">
+                                  <input type="text" placeholder="Your name">
+                                  <i class="fa fa-user icon"></i>
+                                  </div>
+
+
+                                        <label >Comments:</label></br>
+                                        <textarea class="comments"></textarea>
+     </form>
+  </div>
+  <div class="col-md Forms">
+    <form >
+                                      <label for="name">Technical Risk:</label></br>
+                                                <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Yes</option>
+                                          <option value="Vet">No</option>
+                                       </select>
+                                      </span>
+                                   </div>
+
+                                          <label for="name">Manufacturing Technology:</label></br>
+                                          <textarea class="comments"></textarea>
+        
+                                   <label for="name">Additional Serices:</label></br>
+                                   <div class="inputWithIcons inputIconBgs">
+                                        <input type="text" placeholder="Your name">
+                                        <i class="fa fa-plus" ></i>
+                                        </div>
+       
+                                         <label for="name">Dosage Forms:</label></br>
+                                         <div class="inputWithIcons inputIconBgs">
+                                        <input type="text" placeholder="Your name">
+                                        <i class="fa fa-plus" ></i>
+                                        </div>
+        
+                                          <label for="name">Production Scope:</label></br>
+                                          <div class="inputWithIcons inputIconBgs">
+                                        <input type="text" placeholder="Your name">
+                                        <i class="fa fa-plus" ></i>
+                                        </div>
+        
+                                                 <label for="name">TS/MS Leader:</label></br>
+                                                 <div class="inputWithIcon inputIconBg">
+                                  <input type="text" placeholder="Your name">
+                                  <i class="fa fa-user icon"></i>
+                                  </div>
+        
+                                              <label for="name">Additional COmments On CM Production & Services:</label></br>
+                                               <textarea class="comments"></textarea>
+     </form>
+  </div>
+  <div class="col-md Forms">
+    <h6>HSE Section:</h6>
+    <form >
+                                 <label for="name">HSE Priority:</label></br>
+                                                   <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Yes</option>
+                                          <option value="Vet">No</option>
+                                       </select>
+                                      </span>
+                                   </div>
+
+                                               <label for="name">HSE Catagory:</label></br>
+                                               <div class="customdropdown">
+                                      <span class="dropdown ">
+                                      <select class="abc">
+                                         <option  value="Select">Yes</option>
+                                          <option value="Vet">No</option>
+                                       </select>
+                                      </span>
+                                   </div>
+        
+                                                
+                                                <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">Most Recent HSE Survey:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+       
+                                                  
+                                                   <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">Most Recent HSE Assesement:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+        
+                                                
+                                                <div class="form-group inputWithIcons inputIconBgs"> <!-- Date input -->
+                                  <label class="datepickerlabel">Next Shceduled Assesement:</label>
+                             <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                    value="31-Dec-2020" type="text"/>
+                            <span class="fa fa-calendar open-datetimepicker"></span>
+                                         </div>
+
+        
+                                             <label for="name">HSE Certification:</label></br>
+                                             <div class="inputWithIcons inputIconBgs">
+                                        <input type="text" placeholder="Your name">
+                                        <i class="fa fa-plus" ></i>
+                                        </div>
+        
+                                            <label for="name">HSE Leader:</label></br>
+                                            <div class="inputWithIcon inputIconBg">
+                                  <input type="text" placeholder="Your name">
+                                  <i class="fa fa-user icon"></i>
+                                  </div>
+     </form>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<!--BRANDS  Section -->
+<div class="mast">
+<div class="row reviewSection Brand">
+  <div class="col-md-10 ">
+     <div class="call-outs-container">
+            <div class="col-xs-12 col-sm-12 col-md-12 logo">
+              
+           <img class="call-out" src="AS3.png" alt="image" style="width:150px;height:100px">  
+         
+     
+           <img  class="call-out"src="AS3.png" alt="image" style="width:150px;height:100px">  
+        
+     
+           <img  class="call-out" src="AS3.png"alt="image" style="width:150px;height:100px">  
+              
+        </div>
+        </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+  <div class="row">
+<div class="col-md-12 Update">
+  <p>Last Updated By :Jhon Lagnininia</br>
+  Last Updated By : 03/27/2020</p>
+</div>
+</div>
+
+
+
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9">
+       <p>©2020 Elanco or its affiliates.<br>
+         Elanco, and the diagnal bar logo are trademarks of Elanco </p>
+      </div>
+      <div class="col-md-2 menu">
+        <ul >
+          <li>
+            <a style="text-decoration:none" href="#">Privacy Policy</a>
+          </li>
+          <li class="liti">
+            <a style="text-decoration:none" href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <img class="call-out" src="AS3.png" alt="image" style="width:100px;">  
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<style>
+  .Update{
+    margin-top:2%;
+  }
+  .Update p {
+    float: right;
+    margin-right: 10%;
+    font-size: 12px;
+  }
+ 
+  @media only screen and (max-width: 767px) {
+         
+         .logo{
+           display: block;
+         }
+         .call-out {
+            margin-left: 7%;
+        }
+    }
+/*PLUS ICON */
+    .inputWithIcons input[type="text"] {
+  outline: none;  
+  width: 100%;
+  
+}
+.inputWithIcons {
+  position: relative;
+}
+
+.inputWithIcons i {
+  position: absolute;
+  left:90%;
+  padding: 9px 9px;
+  min-width: 30px;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 31px;
+}
+.inputWithIcons.inputIconBgs i{
+  background-color: #aaa;
+ 
+}
+
+  /*Footer */
+  .menu ul{
+  display: flex;
+}
+ /*Form Heading  */
+ .header{
+   background-color: #007bff;
+   padding-left: 4%;
+   color: white;
+   padding-bottom: 3%;
+    padding-top: 3%;
+   
+ }
+
+  #ResizingButtons{
+       padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: none !important;
+    border: 4px solid;
+ }
+ .headerwithicon{
+   position: relative;
+ }
+ #xyz{
+   margin-left: 50% !important;
+   cursor: pointer;
+   
+   
+ }
+</style>

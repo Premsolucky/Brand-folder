@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+body{
+  width: 100%;
+}
+.reviewSection {
+  display: inline-block;
+   border: 1px solid lightgrey;
+   font-size: 14px;
+   width: 90%;
+   color: #007bff;
+   font-weight: 700;
+ 
+ }
+ .italic{
+  font-style: italic;
+  font-weight: 800 !important;
+ }
+ .fromsection{
+     margin-top:2%;
+ }
+ .cardBorders{
+     border: none;
+ }
+ .mast{
+     align-items: center !important;
+     justify-content: center!important;
+      margin-left:10% !important;
+      margin-top:2%;
+ }
+ .Forms{
+  display: inline-block;
+  border: 1px solid lightgrey;
+  font-size: 14px;
+  row-gap:20px;
+  margin-right:20px;
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+ }
+.Forms:last-child{
+  margin-right: 0;
+}
+/* fourth example */
+.fixed-size-container {
+  max-width: 90%;
+  margin: 40px auto 0 auto;
+  background-color: pink;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.abc{
+    order: 1;
+}
+.cde{
+    order:2;
+}
+.review{
+  display: flex;
+align-items: center;
+}
+.table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  .review{
+      word-wrap: break-word;
+  }
+  /* STYLES GO HERE */}
+
+  @media only screen and (max-width: 767px) {
+       .table{
+          display: block !important;
+          align-items: left !important;
+      }
+  }
+
+  /*Forms */
+  .Titlecolor{
+      background-color: #007bff;
+      color: #fff;  
+      width: 275px;
+      height: 30px;
+     text-align: center;
+  }
+  .hey{
+      margin-left: 9%;
+      margin-bottom: 2%;
+  }
+  .Titlecolor h6 {
+      padding-left: 8px;
+  }
+  .Brandclor{
+    background-color: #007bff;
+  }
+  /* .call-outs-container{
+    display: flex;
+  }
+  
+  .call-out:nth-child(1) img{
+    float: right;
+  } */
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12% ;
+
+     
+  }
+  .call-out{
+   margin-right: 2%;
+   
+  }
+/* Date picker  Experminet starts */
+
+#date{
+  width: 100%;
+  height: 35px;
+  
+}
+
+
+.inputWithIcons input[type="text"] {
+outline: none;  
+
+}
+
+.inputWithIcons {
+position: relative;
+}
+
+.inputWithIcons span {
+position: absolute;
+left:90%;
+top:50%;
+padding: 9px 9px;
+min-width: 30px;
+border-radius: 2px;
+cursor: pointer;
+height: 33px;
+}
+.inputWithIcons.inputIconBgs span{
+background-color: #aaa;
+
+}
+/* Date picker  Experminet ENDS */
+  /* Input Tag With Icons */
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+  outline: none;
+  
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: 0;
+  padding: 9px 9px;
+  min-width: 30px;
+}
+.inputWithIcon.inputIconBg i{
+  background-color: #aaa;
+ 
+}
+
+/* Text Area For Comments*/
+.comments{
+  width: 100%;
+  height: 120px;
+  outline: none;
+}
+/* LABEL ONLY */
+  .abc{
+    width:100%;
+  }
+
+/* FOOTER ONLY */
+.menu ul{
+  display: flex;
+}
+ul {
+  list-style: none;
+  padding: 8px;
+}
+li{
+  flex:1;
+}
+ a{
+  cursor: pointer;
+}
+footer{
+  background-color: #aaa;
+  font-weight: 500;
+  width: 100%;
+}
+footer p{
+  font-weight: 500;
+  margin-top: 2%;
+}
+.liti ::before{
+content: '|';
+color: #007bff;
+padding-right: 10px;
+}
+
+
+#plusicon{
+  background-color: #aaa;
+}
